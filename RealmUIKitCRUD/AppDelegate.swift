@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  RealmUIKitCRUD
+//  ToDoAppRealm
 //
 //  Created by Aarish Khanna on 29/11/23.
 //
@@ -13,7 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if let url = DatabaseHelper.shared.getDatabasePath(){
+            print("Database URL:", url)
+        }
         return true
     }
 

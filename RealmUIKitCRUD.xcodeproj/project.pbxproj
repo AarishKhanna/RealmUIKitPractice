@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40A260452B1720F7002EA07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A260442B1720F7002EA07D /* AppDelegate.swift */; };
-		40A260472B1720F7002EA07D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A260462B1720F7002EA07D /* SceneDelegate.swift */; };
-		40A260492B1720F7002EA07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A260482B1720F7002EA07D /* ViewController.swift */; };
-		40A2604C2B1720F7002EA07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A2604A2B1720F7002EA07D /* Main.storyboard */; };
-		40A2604E2B1720FB002EA07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A2604D2B1720FB002EA07D /* Assets.xcassets */; };
-		40A260512B1720FB002EA07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A2604F2B1720FB002EA07D /* LaunchScreen.storyboard */; };
+		3F5D67C3DA4EB3FA77D0C860 /* Pods_RealmUIKitCRUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE4BAD000CB9CF6B825C09D /* Pods_RealmUIKitCRUD.framework */; };
+		40A260612B172131002EA07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A260592B172125002EA07D /* Main.storyboard */; };
+		40A260622B172131002EA07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2605A2B172127002EA07D /* ViewController.swift */; };
+		40A260632B172131002EA07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A2605B2B17212A002EA07D /* Assets.xcassets */; };
+		40A260642B172131002EA07D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2605C2B17212C002EA07D /* SceneDelegate.swift */; };
+		40A260652B172131002EA07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A2605D2B17212E002EA07D /* LaunchScreen.storyboard */; };
+		40A260662B172131002EA07D /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2605E2B172130002EA07D /* DatabaseHelper.swift */; };
+		40A260682B172131002EA07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A260602B172131002EA07D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40A260412B1720F7002EA07D /* RealmUIKitCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmUIKitCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40A260442B1720F7002EA07D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40A260462B1720F7002EA07D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40A260482B1720F7002EA07D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40A2604B2B1720F7002EA07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40A2604D2B1720FB002EA07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40A260502B1720FB002EA07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		40A260522B1720FB002EA07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A260582B172122002EA07D /* RealmUIKitCRUD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealmUIKitCRUD-Bridging-Header.h"; sourceTree = "<group>"; };
+		40A260592B172125002EA07D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		40A2605A2B172127002EA07D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40A2605B2B17212A002EA07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40A2605C2B17212C002EA07D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40A2605D2B17212E002EA07D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40A2605E2B172130002EA07D /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		40A2605F2B172130002EA07D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A260602B172131002EA07D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B8154226451AA294D125551 /* Pods-RealmUIKitCRUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmUIKitCRUD.debug.xcconfig"; path = "Target Support Files/Pods-RealmUIKitCRUD/Pods-RealmUIKitCRUD.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBC995448D84EA8B2ED731C /* Pods-RealmUIKitCRUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmUIKitCRUD.release.xcconfig"; path = "Target Support Files/Pods-RealmUIKitCRUD/Pods-RealmUIKitCRUD.release.xcconfig"; sourceTree = "<group>"; };
+		FDE4BAD000CB9CF6B825C09D /* Pods_RealmUIKitCRUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmUIKitCRUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5D67C3DA4EB3FA77D0C860 /* Pods_RealmUIKitCRUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,8 @@
 			children = (
 				40A260432B1720F7002EA07D /* RealmUIKitCRUD */,
 				40A260422B1720F7002EA07D /* Products */,
+				5F1D312D7C1BB4A4EF022F6B /* Pods */,
+				941833CB73216E173239C226 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +66,34 @@
 		40A260432B1720F7002EA07D /* RealmUIKitCRUD */ = {
 			isa = PBXGroup;
 			children = (
-				40A260442B1720F7002EA07D /* AppDelegate.swift */,
-				40A260462B1720F7002EA07D /* SceneDelegate.swift */,
-				40A260482B1720F7002EA07D /* ViewController.swift */,
-				40A2604A2B1720F7002EA07D /* Main.storyboard */,
-				40A2604D2B1720FB002EA07D /* Assets.xcassets */,
-				40A2604F2B1720FB002EA07D /* LaunchScreen.storyboard */,
-				40A260522B1720FB002EA07D /* Info.plist */,
+				40A260602B172131002EA07D /* AppDelegate.swift */,
+				40A2605B2B17212A002EA07D /* Assets.xcassets */,
+				40A2605E2B172130002EA07D /* DatabaseHelper.swift */,
+				40A2605F2B172130002EA07D /* Info.plist */,
+				40A2605D2B17212E002EA07D /* LaunchScreen.storyboard */,
+				40A260592B172125002EA07D /* Main.storyboard */,
+				40A2605C2B17212C002EA07D /* SceneDelegate.swift */,
+				40A2605A2B172127002EA07D /* ViewController.swift */,
+				40A260582B172122002EA07D /* RealmUIKitCRUD-Bridging-Header.h */,
 			);
 			path = RealmUIKitCRUD;
+			sourceTree = "<group>";
+		};
+		5F1D312D7C1BB4A4EF022F6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B8154226451AA294D125551 /* Pods-RealmUIKitCRUD.debug.xcconfig */,
+				ACBC995448D84EA8B2ED731C /* Pods-RealmUIKitCRUD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		941833CB73216E173239C226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE4BAD000CB9CF6B825C09D /* Pods_RealmUIKitCRUD.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40A260552B1720FB002EA07D /* Build configuration list for PBXNativeTarget "RealmUIKitCRUD" */;
 			buildPhases = (
+				70929F25276946E1F858437C /* [CP] Check Pods Manifest.lock */,
 				40A2603D2B1720F7002EA07D /* Sources */,
 				40A2603E2B1720F7002EA07D /* Frameworks */,
 				40A2603F2B1720F7002EA07D /* Resources */,
+				AC7724748E90E96BCA0C67E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +130,7 @@
 				TargetAttributes = {
 					40A260402B1720F7002EA07D = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -125,45 +157,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A260512B1720FB002EA07D /* LaunchScreen.storyboard in Resources */,
-				40A2604E2B1720FB002EA07D /* Assets.xcassets in Resources */,
-				40A2604C2B1720F7002EA07D /* Main.storyboard in Resources */,
+				40A260652B172131002EA07D /* LaunchScreen.storyboard in Resources */,
+				40A260632B172131002EA07D /* Assets.xcassets in Resources */,
+				40A260612B172131002EA07D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70929F25276946E1F858437C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmUIKitCRUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7724748E90E96BCA0C67E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmUIKitCRUD/Pods-RealmUIKitCRUD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmUIKitCRUD/Pods-RealmUIKitCRUD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmUIKitCRUD/Pods-RealmUIKitCRUD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40A2603D2B1720F7002EA07D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A260492B1720F7002EA07D /* ViewController.swift in Sources */,
-				40A260452B1720F7002EA07D /* AppDelegate.swift in Sources */,
-				40A260472B1720F7002EA07D /* SceneDelegate.swift in Sources */,
+				40A260682B172131002EA07D /* AppDelegate.swift in Sources */,
+				40A260622B172131002EA07D /* ViewController.swift in Sources */,
+				40A260662B172131002EA07D /* DatabaseHelper.swift in Sources */,
+				40A260642B172131002EA07D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		40A2604A2B1720F7002EA07D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40A2604B2B1720F7002EA07D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		40A2604F2B1720FB002EA07D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40A260502B1720FB002EA07D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		40A260532B1720FB002EA07D /* Debug */ = {
@@ -282,9 +338,11 @@
 		};
 		40A260562B1720FB002EA07D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8154226451AA294D125551 /* Pods-RealmUIKitCRUD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WXA74GV5H2;
@@ -295,6 +353,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +362,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aarishkhanna.RealmUIKitCRUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RealmUIKitCRUD/RealmUIKitCRUD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,9 +371,11 @@
 		};
 		40A260572B1720FB002EA07D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBC995448D84EA8B2ED731C /* Pods-RealmUIKitCRUD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WXA74GV5H2;
@@ -323,6 +386,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aarishkhanna.RealmUIKitCRUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RealmUIKitCRUD/RealmUIKitCRUD-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
